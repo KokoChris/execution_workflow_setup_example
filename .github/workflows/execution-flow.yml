@@ -1,7 +1,7 @@
 name: Website Deployment
 on:
   pull_request:
-      types: [opened]
+    types: [opened]
 jobs:
   lint:
     runs-on: ubuntu-latest
