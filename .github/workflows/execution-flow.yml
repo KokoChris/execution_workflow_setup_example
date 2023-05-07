@@ -1,6 +1,6 @@
 name: Website Deployment
 on:
-  pull_request:
+  pull_request
 jobs:
   lint:
     runs-on: ubuntu-latest
